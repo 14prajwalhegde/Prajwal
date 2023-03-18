@@ -24,4 +24,30 @@ nav {
   nav a:hover {
     background-color: #30c1a1;
   }
-  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background:linear-gradient(120deg,#2980b9,#44ad54);
+    height: 100vh;
+}
+
+.center{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
